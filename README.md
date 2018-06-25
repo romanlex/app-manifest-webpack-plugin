@@ -118,7 +118,7 @@ plugins: [
     // Your source logo
     logo: 'my-logo.png',
     // Prefix for file names
-    prefix: '/assets/icons-[hash:8]/', // default '/'
+    prefix: '/assets', // default '/'
     // Output path for icons (icons will be saved to output.path(webpack config) + this key)
     output: '/icons-[hash:8]/', // default '/'
     // Emit all stats of the generated icons
@@ -211,7 +211,7 @@ When you use option `emitStats` the plugin is generated stats file with `statsFi
 {
   "outputFilePrefix":"/",
   "html": [], // array of html strings
-  "files": [], // array of generated icon names 
+  "files": [], // array of generated icon names
   "encodedHtml": "", // endoded html string if you use statsEncodeHtml option
 }
 
